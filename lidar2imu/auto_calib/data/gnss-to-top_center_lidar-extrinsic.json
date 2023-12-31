@@ -1,0 +1,43 @@
+{
+    "gnss-to-top_center_lidar-extrinsic": {
+        "param_type": "extrinsic",
+        "sensor_name": "gnss",
+        "target_sensor_name": "top_center_lidar",
+        "device_type": "relational",
+        "param": {
+            "sensor_calib": {
+                "data": [
+                    [
+                        0.000534077,
+                        0.999956,
+                        0.00939283,
+                        -1.20793
+                    ],
+                    [
+                        -0.999853,
+                        0.00037313,
+                        0.0171284,
+                        -0.0217731
+                    ],
+                    [
+                        0.0171242,
+                        -0.0094006,
+                        0.999809,
+                        -1.37729
+                    ],
+                    [
+                        -0.0,
+                        -0.0,
+                        -0.0,
+                        1.0
+                    ]
+                ],
+                "continuous": true,
+                "rows": 4,
+                "type": 6,
+                "cols": 4
+            },
+            "time_lag": 0
+        }
+    }
+}
